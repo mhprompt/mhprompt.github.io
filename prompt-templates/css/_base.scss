@@ -60,12 +60,13 @@ body{
 }
 
 .head{
+	padding-right:6.5% !important;
 	h3{
 		font-size: 4.2em;
 		line-height: 45px;
 		text-align: right;
 		@include lato-black;
-		padding-right:20px;
+		
 		
 	}
 }
@@ -151,6 +152,7 @@ p, h5{
 		.logo{
 			
 			background: $lightblue1;
+								padding-right:6.5%;
 			
 			h1{
 				padding: 60px 8% ;
@@ -162,7 +164,7 @@ p, h5{
 					display: block;
 					max-width:260px;
 					padding-bottom:30px;
-					padding-right:20px;
+
 					
 				}
 			}

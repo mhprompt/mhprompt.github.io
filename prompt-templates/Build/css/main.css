@@ -649,13 +649,14 @@ body {
   .button .sym {
     margin: 0px 15px; }
 
-.head h3 {
-  font-size: 4.2em;
-  line-height: 45px;
-  text-align: right;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  padding-right: 20px; }
+.head {
+  padding-right: 6.5% !important; }
+  .head h3 {
+    font-size: 4.2em;
+    line-height: 45px;
+    text-align: right;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 900; }
 
 h4 {
   text-transform: uppercase;
@@ -706,7 +707,8 @@ p, h5 {
   .overview .masthead {
     padding-top: 45px; }
     .overview .masthead .logo {
-      background: #70d3e5; }
+      background: #70d3e5;
+      padding-right: 6.5%; }
       .overview .masthead .logo h1 {
         padding: 60px 8%;
         margin: 0; }
@@ -716,8 +718,7 @@ p, h5 {
           float: right;
           display: block;
           max-width: 260px;
-          padding-bottom: 30px;
-          padding-right: 20px; }
+          padding-bottom: 30px; }
     .overview .masthead .details {
       background: #81d8e8;
       padding: 0 6.5%;
