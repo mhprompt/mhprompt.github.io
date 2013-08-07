@@ -1438,7 +1438,7 @@ Span 12:    100%
   .overview .masthead .logo {
     padding: 0 6.5% !important; }
     .overview .masthead .logo h1 {
-      padding: 30px 0 a; }
+      padding: 30px 0; }
   .overview .masthead .details {
     padding: 0 6.5% !important; }
     .overview .masthead .details h2 {
