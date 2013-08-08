@@ -31,7 +31,7 @@ body{
 	}
 	
 	&.red{
-		color: $white;
+		color: $white !important;
 		background: $red1;
 		
 		&:hover{ background: $red2;}
@@ -51,12 +51,43 @@ body{
 		@include border-bottom-radius(0px);
 		@include border-left-radius(0px);
 		@include border-right-radius(0px);
-		
-		
+	}
+	
+	&.left-half{
+		@include border-top-radius(10px);
+		@include border-bottom-radius(0px);
+		@include border-left-radius(10px);
+		@include border-right-radius(0px);
+	}
+	
+	&.right-half{
+		@include border-top-radius(0px);
+		@include border-bottom-radius(10px);
+		@include border-left-radius(0px);
+		@include border-right-radius(10px);
+		margin-left:-1px;
+
 	}
 	
 	.sym{margin: 0px 15px;}
 	
+}
+
+.double-button{
+	position: relative;
+	.or{
+		position: absolute; top:29%;
+		background: $darkestblue;
+		margin-left:-16px;
+		padding:10px 8px 10px 8px;
+		color:$white;
+		font-size: 1em;
+		@include lato-bold;
+		@include border-top-radius(31px);
+		@include border-bottom-radius(31px);
+		@include border-left-radius(31px);
+		@include border-right-radius(31px);
+	}
 }
 
 .head{
@@ -66,11 +97,8 @@ body{
 		line-height: 45px;
 		text-align: right;
 		@include lato-black;
-		
-		
 	}
 }
-
 
 h4{
 	text-transform: uppercase;
@@ -258,6 +286,15 @@ p, h5{
 			}
 		}
 	}
+	
+	.two{
+		.head{
+		 	background: $lightblue6;
+		}
+		.details{
+			background: $lightblue7;
+		}
+	}
 
 }
 
@@ -423,7 +460,7 @@ p, h5{
 		}
 	}
 	
-	.details {
+	a.details {
 		
 		&:hover{
 						
@@ -493,7 +530,7 @@ p, h5{
 
 .listing.red{
 
-
+	a{ color: $red1;}
 	/*border-top: 23px solid $grey0;*/
 	
 	.row.one{
@@ -561,6 +598,35 @@ p, h5{
 		color: $red1;
 	}
 	
+}
+
+.general{
+	a{ color: $darkblue;}
+	/*border-top: 23px solid $grey0;*/
+	
+	.row.one{
+		.head{
+			background: $grey3;
+		}
+		.details{
+			background: $white;
+		}
+	}
+	
+	.row.two{
+		.head{
+			background: $grey0;
+		}
+		.details{
+			background: $grey1;
+		}
+	}
+	
+	.content{
+		h1, h2, h3, h4, h5, h6{
+		color: $darkblue;
+		}
+	}
 }
 
 .listing.red-invert{
@@ -668,6 +734,95 @@ p, h5{
 		h4{ max-width:500px; }
 		h5{ max-width:500px; }
 	
+	}
+}
+
+.article{
+	
+	.overview{
+		border-bottom:0px;
+	}
+	.masthead{
+		
+		.logo{
+			border-bottom: 23px solid $lightblue3;
+		}
+		.details{
+			border-bottom: 23px solid $lightblue4;
+		}
+	
+	}
+	
+	.content{
+		
+		padding-top:25px;
+		padding-bottom:60px;
+	}
+	
+}
+
+.side.head{
+	padding-top: 50px;
+	
+	p{ text-align: right; }
+	
+	.date{
+		text-transform: uppercase;
+		
+		@include lato-bold;
+		font-size: 1.5em;
+		
+	}
+}
+
+.read-through{
+
+	.overview{
+		border-bottom: 23px solid $lightblue0;		
+	}
+	
+	.text.listing.green {
+		border-bottom: 23px solid $green1;		
+	}
+	
+	.feature{
+		
+		.head{
+			padding: 0px 3.5% 0px 3.5%;
+			
+		}
+		
+	}
+	
+	.head{
+		h3{
+			font-size: 2.5em;
+			line-height: 30px;
+			padding-top:5px;
+		}
+	}
+	
+	.content{
+		padding: 35px 0;
+	}
+	
+	.red.listing{
+		border-bottom: 23px solid $red1;
+	}
+}
+
+.content{
+	padding-top:10px;
+	p{ margin:0 0 20px 0; }
+	h1, h2, h3, h4, h5, h6{
+		font-size: 2.9em;
+		line-height: 1.3em;
+	}
+	max-width:600px;
+	
+	.group{
+		padding-bottom:10px;
+		border-bottom: 1px solid $grey0;
 	}
 }
 	

@@ -626,7 +626,7 @@ body {
     .button.blue:hover {
       background: #0a6d7f; }
   .button.red {
-    color: white;
+    color: white !important;
     background: #ed145b; }
     .button.red:hover {
       background: #e21356; }
@@ -646,8 +646,48 @@ body {
     border-bottom-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px; }
+  .button.left-half {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; }
+  .button.right-half {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -1px; }
   .button .sym {
     margin: 0px 15px; }
+
+.double-button {
+  position: relative; }
+  .double-button .or {
+    position: absolute;
+    top: 29%;
+    background: #0a6d7f;
+    margin-left: -16px;
+    padding: 10px 8px 10px 8px;
+    color: white;
+    font-size: 1em;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+    border-top-left-radius: 31px;
+    border-bottom-left-radius: 31px;
+    border-top-right-radius: 31px;
+    border-bottom-right-radius: 31px; }
 
 .head {
   padding-right: 6.5% !important; }
@@ -775,6 +815,10 @@ p, h5 {
         color: white;
         margin: 0;
         padding: 0; }
+  .overview .two .head {
+    background: #97e0ec; }
+  .overview .two .details {
+    background: #a4e3ee; }
 
 .details {
   padding-left: 6.5% !important;
@@ -878,11 +922,11 @@ p, h5 {
     background: #4bcb66; }
   .listing.green .head h3 {
     color: white; }
-  .listing.green .details:hover {
+  .listing.green a.details:hover {
     background: #32c050 !important; }
-    .listing.green .details:hover h4 {
+    .listing.green a.details:hover h4 {
       color: white; }
-    .listing.green .details:hover .link {
+    .listing.green a.details:hover .link {
       color: white !important; }
   .listing.green .detail-head.become h4 {
     background: url(../img/sprite.png) no-repeat;
@@ -915,6 +959,8 @@ p, h5 {
 .listing.red {
   /*border-top: 23px solid $grey0;*/
   background: white; }
+  .listing.red a {
+    color: #ed145b; }
   .listing.red .row.one .head {
     background: #f4f4f4; }
   .listing.red .row.one .details {
@@ -947,6 +993,21 @@ p, h5 {
     color: #ed145b; }
   .listing.red h4 {
     color: #ed145b; }
+
+.general {
+  /*border-top: 23px solid $grey0;*/ }
+  .general a {
+    color: #1ba2ba; }
+  .general .row.one .head {
+    background: #fafafa; }
+  .general .row.one .details {
+    background: white; }
+  .general .row.two .head {
+    background: #e9e9e9; }
+  .general .row.two .details {
+    background: #f1f1f1; }
+  .general .content h1, .general .content h2, .general .content h3, .general .content h4, .general .content h5, .general .content h6 {
+    color: #1ba2ba; }
 
 .listing.red-invert {
   /*border-top: 23px solid $red0;*/
@@ -1010,6 +1071,53 @@ p, h5 {
   max-width: 500px; }
 .listing .description h5 {
   max-width: 500px; }
+
+.article .overview {
+  border-bottom: 0px; }
+.article .masthead .logo {
+  border-bottom: 23px solid #85dae9; }
+.article .masthead .details {
+  border-bottom: 23px solid #94deeb; }
+.article .content {
+  padding-top: 25px;
+  padding-bottom: 60px; }
+
+.side.head {
+  padding-top: 50px; }
+  .side.head p {
+    text-align: right; }
+  .side.head .date {
+    text-transform: uppercase;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em; }
+
+.read-through .overview {
+  border-bottom: 23px solid #ade9f3; }
+.read-through .text.listing.green {
+  border-bottom: 23px solid #32c050; }
+.read-through .feature .head {
+  padding: 0px 3.5% 0px 3.5%; }
+.read-through .head h3 {
+  font-size: 2.5em;
+  line-height: 30px;
+  padding-top: 5px; }
+.read-through .content {
+  padding: 35px 0; }
+.read-through .red.listing {
+  border-bottom: 23px solid #ed145b; }
+
+.content {
+  padding-top: 10px;
+  max-width: 600px; }
+  .content p {
+    margin: 0 0 20px 0; }
+  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    font-size: 2.9em;
+    line-height: 1.3em; }
+  .content .group {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9; }
 
 .foot .head {
   padding-top: 35px;
@@ -1407,6 +1515,10 @@ Span 12:    100%
       line-height: 37px;
       margin: 30px 0; }
 
+  .side.head {
+    height: 0px;
+    padding: 0; }
+
   .foot .head, .foot .details {
     padding-top: 0px;
     padding-bottom: 0px; }
@@ -1435,6 +1547,9 @@ Span 12:    100%
   .red .row.two .head, .red .row.three .head {
     height: 10px; }
 
+  .read-through .row.two .head, .read-through .row.three .head, .read-through .overview .feature .head {
+    height: auto; }
+
   .overview .masthead .logo {
     padding: 0 6.5% !important; }
     .overview .masthead .logo h1 {
@@ -1450,11 +1565,18 @@ Span 12:    100%
   .overview .feature .head {
     height: 10px;
     padding-top: 0;
+    padding-left: 6.5%;
     padding-bottom: 0; }
   .overview .feature .action {
     padding: 30px 6.5% !important; }
     .overview .feature .action .button {
-      display: block; }
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 1.2em;
+      line-height: 1.4em;
+      width: 38%; }
+    .overview .feature .action .or {
+      display: none; }
 
   .image.listing .image-head {
     padding: 40px 0 20px 0; }
@@ -1468,6 +1590,9 @@ Span 12:    100%
     max-width: 100%; }
   .image.listing .description h4 {
     margin: 10px 0 0 0; } }
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .button {
+    padding: 32px 30px; } }
 @media screen and (min-width: 768px) and (max-width: 800px) {
   .overview .feature .action .feature-desc {
     padding: 0px; }

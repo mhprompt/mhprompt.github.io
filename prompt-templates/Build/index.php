@@ -126,8 +126,12 @@
 			</div>
 			
 			<div class="action col">
-		
-				<a href = "resources.html" title="Menatl Health Resources" class="button blue">Get Resources</a>
+				
+				<div class="double-button">
+				<a href = "resources.html" title="Mental Health Resources" class="button blue left-half">Get Resources</a>
+				<span class="or">OR</span>
+				<a href = "faq.html" title="FAQ" class="button blue right-half">Read the FAQ</a>
+				</div>
 			
 			</div>
 		
@@ -147,7 +151,7 @@
 			<a class="close" href="#">Close</a>
 			
 			<h2>Whether you would like to become a speaker, give your organisations support or get one of our speakers at your event, contact us:</h2>
-			<p><a href="mailto:get-involved@prompt.io">get-involved@prompt.io</a></p>
+			<p><a href = "eamon@engineyard.com" title = "Mail Eamon">eamon@engineyard.com</a></p>
 			
 		</div>
 		
