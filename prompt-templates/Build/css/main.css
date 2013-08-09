@@ -890,7 +890,7 @@ p, h5 {
       line-height: 35px;
       width: 70%; }
   .submit-panel a {
-    color: white; }
+    color: white !important; }
   .submit-panel .close {
     position: absolute;
     background: url(../img/close.png) no-repeat;

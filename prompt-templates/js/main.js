@@ -82,7 +82,7 @@ $(document).ready(function() {
 	
 	
 	
-	$('a.details, a.gi').click(function(){
+	$('#get-involved a.details, a.gi').click(function(){
 	
 		$('.get-involved-panel').stop().removeClass('hide').show().animate({ right: '0px'}, 500,
 			function(){}	
