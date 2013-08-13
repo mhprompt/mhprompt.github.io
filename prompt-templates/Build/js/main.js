@@ -82,51 +82,54 @@ $(document).ready(function() {
 	
 	
 	
-	$('#get-involved a.details, a.gi').click(function(){
+	$('a.details').click(function(){
 	
-		$('.get-involved-panel').stop().removeClass('hide').show().animate({ right: '0px'}, 500,
+		closeAllPanels();
+	
+		$(this).next('.panel').stop().removeClass('hide').show().animate({ right: '0px'}, 500,
 			function(){}	
 		);
-		
-		$('.get-involved-panel').addClass('current-modal');
 
 	});
 	
-	$('a.submit-open').click(function(){
-	
-		$('.submit-panel').stop().removeClass('hide').show().animate({ right: '0px'}, 500,
+	$('a.panel-open').click(function(){
+
+		
+		var getPanel = $(this).attr('id');
+		getPanel = '#' + getPanel + '-info';
+		
+		console.log(getPanel);
+		
+		$(getPanel).stop().removeClass('hide').show().animate({ right: '0px'}, 500,
 			function(){}	
 		);
 		
-		$('.submit-panel').addClass('current-modal');
 
 	});
 	
-	$('.get-involved-panel .close').click(function(){
-		
-		$('.get-involved-panel').stop().animate({ right: '-1000px'}, 500,
+	function closeAllPanels(){
+			
+		$('.panel').stop().animate({ right: '-1000px'}, 500,
 			function(){
 				
 				$(this).hide();
 			}	
 		)
-		$('.get-involved-panel').removeClass('current-modal');
-		
-		
-		return false;
-	});
+			
+	}
 	
-	$('.submit-panel .close').click(function(){
+	
+	$('.panel .close').click(function(){
 		
-		$('.submit-panel').stop().animate({ right: '-1000px'}, 500,
+		$(this).offsetParent('.panel').stop().animate({ right: '-1000px'}, 500,
 			function(){
+				
 				$(this).hide();
 			}	
 		)
-		$('.submit-panel').removeClass('current-modal');
-		
 		
 		return false;
 	});
+
 	
 });

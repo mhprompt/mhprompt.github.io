@@ -722,7 +722,7 @@ p, h5 {
 ---------------------------------------------------*/
 .nav-bar {
   position: fixed;
-  z-index: 10;
+  z-index: 1000;
   height: 45px;
   width: 100%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -859,22 +859,34 @@ p, h5 {
         .details .list-item .description ul li a:hover {
           text-decoration: none; }
 
-.get-involved-panel {
+.panel {
   position: absolute;
-  background: #e7ef6b;
-  color: #000;
   width: 66.5%;
+  top: 0;
   min-height: 100%;
-  right: -1000px; }
-  .get-involved-panel .panel-wrap {
+  right: -1000px;
+  z-index: 100; }
+  .panel.yellow {
+    background: #e7ef6b; }
+    .panel.yellow a {
+      color: #000; }
+  .panel.red {
+    background: #aa0b3f;
+    color: white; }
+    .panel.red a {
+      color: white !important; }
+  .panel.red-invert {
+    background: #f1f1f1;
+    color: #ed145b; }
+    .panel.red-invert a {
+      color: #000 !important; }
+  .panel .panel-wrap {
     padding: 37px 6.5% 20px 10%; }
-    .get-involved-panel .panel-wrap h2 {
+    .panel .panel-wrap h2 {
       font-size: 3em;
       line-height: 35px;
       width: 70%; }
-  .get-involved-panel a {
-    color: #000; }
-  .get-involved-panel .close {
+  .panel .close {
     position: absolute;
     background: url(../img/close.png) no-repeat;
     display: block;
@@ -884,35 +896,7 @@ p, h5 {
     width: 40px;
     background-size: 40px;
     text-indent: -9999em; }
-    .get-involved-panel .close:hover {
-      opacity: 0.5; }
-
-.submit-panel {
-  position: absolute;
-  background: #aa0b3f;
-  color: white;
-  width: 66.5%;
-  min-height: 100%;
-  right: -1000px; }
-  .submit-panel .panel-wrap {
-    padding: 37px 6.5% 20px 10%; }
-    .submit-panel .panel-wrap h2 {
-      font-size: 3em;
-      line-height: 35px;
-      width: 70%; }
-  .submit-panel a {
-    color: white !important; }
-  .submit-panel .close {
-    position: absolute;
-    background: url(../img/close.png) no-repeat;
-    display: block;
-    right: 3.5%;
-    top: 37px;
-    height: 40px;
-    width: 40px;
-    background-size: 40px;
-    text-indent: -9999em; }
-    .submit-panel .close:hover {
+    .panel .close:hover {
       opacity: 0.5; }
 
 .listing.green {
@@ -1052,6 +1036,9 @@ p, h5 {
   position: relative; }
 
 .text.listing.red {
+  position: relative; }
+
+.image.listing.red {
   position: relative; }
 
 .image.listing .image-head {
