@@ -1,4 +1,15 @@
 /* Color */
+/*
+$green0: #40cb5d;
+$green1: #32c050;
+$green2: #3cc359;
+$green3: #47c662;
+$green4: #37c555;
+$green5: #41c85e;
+$green6: #4bcb66;
+$whitegreen: #c0eeca;
+$darkgreen: #003f0d;
+*/
 /* normalize.css v1.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -905,25 +916,25 @@ p, h5 {
       opacity: 0.5; }
 
 .listing.green {
-  border-bottom: 90px solid #3cc359;
+  border-bottom: 90px solid #2fbb4d;
   /*border-top: 23px solid $green0;*/
-  background: #3cc359; }
+  background: #2fbb4d; }
   .listing.green .row.one .head {
-    background: #32c050; }
+    background: #24b743; }
   .listing.green .row.one .details {
-    background: #37c555; }
+    background: #2abc49; }
   .listing.green .row.two .head {
-    background: #3cc359; }
+    background: #2fbb4d; }
   .listing.green .row.two .details {
-    background: #41c85e; }
+    background: #35bf52; }
   .listing.green .row.three .head {
-    background: #47c662; }
+    background: #3abe56; }
   .listing.green .row.three .details {
-    background: #4bcb66; }
+    background: #40c35c; }
   .listing.green .head h3 {
     color: white; }
   .listing.green a.details:hover {
-    background: #32c050 !important; }
+    background: #24b743 !important; }
     .listing.green a.details:hover h4 {
       color: white; }
     .listing.green a.details:hover .link {
@@ -1095,7 +1106,7 @@ p, h5 {
 .read-through .overview {
   border-bottom: 23px solid #ade9f3; }
 .read-through .text.listing.green {
-  border-bottom: 23px solid #32c050; }
+  border-bottom: 23px solid #24b743; }
 .read-through .feature .head {
   padding: 0px 3.5% 0px 3.5%; }
 .read-through .head h3 {
