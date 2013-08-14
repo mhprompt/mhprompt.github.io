@@ -38,7 +38,16 @@ $(window).resize(function(){
 	
 });
 
-
+function closeAllPanels(){
+			
+	$('.panel').stop().animate({ right: '-1000px'}, 500,
+		function(){
+			
+			$(this).hide();
+		}	
+	)
+		
+}
 
 $(document).ready(function() {
 	
@@ -106,18 +115,6 @@ $(document).ready(function() {
 		
 
 	});
-	
-	function closeAllPanels(){
-			
-		$('.panel').stop().animate({ right: '-1000px'}, 500,
-			function(){
-				
-				$(this).hide();
-			}	
-		)
-			
-	}
-	
 	
 	$('.panel .close').click(function(){
 		

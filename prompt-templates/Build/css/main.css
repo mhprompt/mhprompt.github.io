@@ -885,7 +885,8 @@ p, h5 {
     .panel .panel-wrap h2 {
       font-size: 3em;
       line-height: 35px;
-      width: 70%; }
+      width: 70%;
+      margin-bottom: 15px; }
   .panel .close {
     position: absolute;
     background: url(../img/close.png) no-repeat;
@@ -898,6 +899,54 @@ p, h5 {
     text-indent: -9999em; }
     .panel .close:hover {
       opacity: 0.5; }
+  .panel .content h1, .panel .content h2, .panel .content h3, .panel .content h4, .panel .content h5, .panel .content h6 {
+    color: #000;
+    margin: 0 0 20px 0; }
+  .panel .content h1 {
+    font-size: 2.2em; }
+  .panel .content h2 {
+    font-size: 1.9em; }
+  .panel .content h3 {
+    font-size: 1.7em; }
+  .panel .content h4 {
+    font-size: 1.4em; }
+  .panel .content h5 {
+    font-size: 1.2em; }
+  .panel .content h6 {
+    font-size: 1em; }
+  .panel .content ul, .panel .content ol, .panel .content p {
+    font-size: 1.7em;
+    line-height: 25px; }
+
+.logo-list {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none; }
+  .logo-list li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 24.5%;
+    background: white;
+    border-bottom: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4; }
+    .logo-list li:hover {
+      opacity: 0.7; }
+    .logo-list li a {
+      text-decoration: none; }
+    .logo-list li .date {
+      font-family: "Lato", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      color: #cccccc;
+      text-decoration: line-through;
+      font-size: 0.7em;
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      margin-top: -5px; }
+    .logo-list li.upcoming .date {
+      color: #000;
+      text-decoration: none; }
 
 .listing.green {
   border-bottom: 90px solid #2fbb4d;
@@ -1452,8 +1501,14 @@ Span 12:    100%
     display: block;
     padding: 15px 6.5%; }
 
-  .get-involved-panel, .submit-panel {
+  .panel {
     width: 100%; }
+
+  .logo-list li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 48%; }
 
   .nav-bar {
     background: white;

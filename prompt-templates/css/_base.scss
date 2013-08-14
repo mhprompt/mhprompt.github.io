@@ -379,6 +379,7 @@ p, h5{
 			font-size:3em;
 			line-height: 35px;
 			width:70%;
+			margin-bottom:15px;
 		}
 	}
 	
@@ -397,10 +398,53 @@ p, h5{
 		}
 	}
 	
-	
+	.content{
+		h1, h2, h3, h4, h5, h6{ color: #000; margin: 0 0 20px 0; }
+		
+		h1{ font-size:2.2em; }
+		h2{ font-size:1.9em; }
+		h3{ font-size:1.7em; }
+		h4{ font-size:1.4em; }
+		h5{ font-size:1.2em; }
+		h6{ font-size:1em; }
+		
+		ul, ol, p {font-size: 1.7em; line-height: 25px; }
+	}
 }
 
+.logo-list{
+	margin:0 0 20px 0; padding:0; list-style: none;
 
+	
+	li{
+		margin:0; padding:0; float:left; width:24.5%;
+			background: $white;
+		border-bottom: 1px solid $grey2;
+		border-right: 1px solid $grey2;
+		&:hover{ opacity: 0.7;}
+		
+		
+		a{ text-decoration: none; }
+		
+		.date{
+			@include lato-bold;
+			color: $textgrey;
+			text-decoration: line-through;
+			font-size:0.7em;
+			text-align:center;
+			text-transform: uppercase;
+			padding-bottom:10px;
+			margin-top:-5px;
+		}
+		
+		&.upcoming{
+			.date{
+				color: #000;
+				text-decoration: none;
+			}
+		}
+	}
+}
 
 	
 .listing.green{

@@ -23,8 +23,16 @@
 	.mobile-menu-button{ display: block; border-bottom: 1px solid $grey1; }
 	.mobile-menu-button a{ display: block; padding: 15px 6.5%;  }
 	
-	.get-involved-panel, .submit-panel{
+	.panel{
 		width:100%;
+	}
+	
+	.logo-list{
+	
+		li{
+			margin:0; padding:0; float:left; width:48%;
+		}
+		
 	}
 	
 	.nav-bar{
