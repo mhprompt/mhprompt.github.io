@@ -335,8 +335,13 @@
 			
 		}
 	}
-	
-	
 
 
+}
+
+@media screen and (max-height: 560px) {
+
+	#map_canvas{
+		height:250px;
+	}	
 }

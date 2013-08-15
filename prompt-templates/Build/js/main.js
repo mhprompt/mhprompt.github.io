@@ -160,7 +160,8 @@ function initialize() {
   var mapOptions = {
     zoom: 3,
     center: new google.maps.LatLng(43.068436, -41.672300),
-    mapTypeControl: false
+    mapTypeControl: false,
+    scrollwheel: false
   };
   
   var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);

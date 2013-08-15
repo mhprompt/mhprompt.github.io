@@ -1760,6 +1760,9 @@ Span 12:    100%
 @media screen and (min-width: 900px) {
   .overview .masthead .logo h1 {
     padding-top: 63px; } }
+@media screen and (max-height: 560px) {
+  #map_canvas {
+    height: 250px; } }
 @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
 /* ==========================================================================
