@@ -1,8 +1,10 @@
 @media screen and (min-width: 0px) and (max-width: 900px) {
 
-.head{
-	h3 { font-size:3.2em; line-height:37px; padding-top:10px;}
-}
+	.head{
+		h3 { font-size:3.2em; line-height:37px; padding-top:10px;}
+	}
+	
+	.nav-bar nav ul li { margin-right:30px;}
 
 }
 
@@ -259,6 +261,14 @@
 		
 		}
 		
+	}
+	
+	.side-buttons{
+
+		li{
+			float:left;
+			margin:0 20px 20px 0;
+		}
 	}
 
 }
