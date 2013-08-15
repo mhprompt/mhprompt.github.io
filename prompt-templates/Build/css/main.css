@@ -1820,3 +1820,8 @@ Span 12:    100%
   h2,
   h3 {
     page-break-after: avoid; } }
+.mappy1 {
+  background-image: url(../img/conferenceicon.png); }
+
+.mappy2 {
+  background-image: url(../img/speakericon.png); }

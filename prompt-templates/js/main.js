@@ -170,8 +170,8 @@ function initialize() {
 	
 }
 
-var conferencesicon = '../img/conferenceicon.png';
-var speakersicon = '../img/speakericon.png';
+var conferencesicon = 'img/conferenceicon.png';
+var speakersicon = 'img/speakericon.png';
 
 var conferences = [
   ['Madison Ruby', 43.074476, -89.388426, 4, 'August 23-24, 2013', 'http://madisonruby.org/'],
