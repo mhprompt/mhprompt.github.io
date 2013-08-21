@@ -3,13 +3,18 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Eamon Leaonard -- Instigator -- @EamonLeonard
+    Ed Finkler -- Speaker -- @funkatron
+    Greg Baugues -- Speaker -- @greggyb
+    John Dalton -- Speaker -- @johndalton
+    Brendan hastings -- Designer -- @brendannh
 
 # THANKS
 
-    <name>
+    Everyone that takes part
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
+    Hammer, Coda
