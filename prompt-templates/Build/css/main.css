@@ -1,5 +1,16 @@
 /* Color */
-/* normalize.css v1.1.1 | MIT License | git.io/normalize */
+/*
+$green0: #40cb5d;
+$green1: #32c050;
+$green2: #3cc359;
+$green3: #47c662;
+$green4: #37c555;
+$green5: #41c85e;
+$green6: #4bcb66;
+$whitegreen: #c0eeca;
+$darkgreen: #003f0d;
+*/
+/*! normalize.css v1.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -711,7 +722,7 @@ p, h5 {
 ---------------------------------------------------*/
 .nav-bar {
   position: fixed;
-  z-index: 10;
+  z-index: 1000;
   height: 45px;
   width: 100%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -848,22 +859,45 @@ p, h5 {
         .details .list-item .description ul li a:hover {
           text-decoration: none; }
 
-.get-involved-panel {
+.panel {
   position: absolute;
-  background: #e7ef6b;
-  color: #000;
   width: 66.5%;
+  top: 0;
   min-height: 100%;
-  right: -1000px; }
-  .get-involved-panel .panel-wrap {
+  right: -1000px;
+  z-index: 100; }
+  .panel.full {
+    width: 100%; }
+  .panel.yellow {
+    background: #e7ef6b; }
+    .panel.yellow a {
+      color: #000; }
+  .panel.red {
+    background: #aa0b3f;
+    color: white; }
+    .panel.red a {
+      color: white !important; }
+  .panel.red-invert {
+    background: white;
+    color: #ed145b; }
+    .panel.red-invert a {
+      color: #000 !important; }
+  .panel .panel-wrap {
     padding: 37px 6.5% 20px 10%; }
-    .get-involved-panel .panel-wrap h2 {
+    .panel .panel-wrap h2 {
       font-size: 3em;
       line-height: 35px;
-      width: 70%; }
-  .get-involved-panel a {
-    color: #000; }
-  .get-involved-panel .close {
+      width: 70%;
+      margin-bottom: 15px; }
+    .panel .panel-wrap .details {
+      padding: 0 !important; }
+      .panel .panel-wrap .details .image-head {
+        padding-top: 0px; }
+      .panel .panel-wrap .details .description h4 {
+        margin-top: 0px; }
+      .panel .panel-wrap .details:hover {
+        background: transparent !important; }
+  .panel .close {
     position: absolute;
     background: url(../img/close.png) no-repeat;
     display: block;
@@ -873,57 +907,79 @@ p, h5 {
     width: 40px;
     background-size: 40px;
     text-indent: -9999em; }
-    .get-involved-panel .close:hover {
+    .panel .close:hover {
       opacity: 0.5; }
+  .panel .content h1, .panel .content h2, .panel .content h3, .panel .content h4, .panel .content h5, .panel .content h6 {
+    color: #000;
+    margin: 0 0 20px 0; }
+  .panel .content h1 {
+    font-size: 2.2em; }
+  .panel .content h2 {
+    font-size: 1.9em; }
+  .panel .content h3 {
+    font-size: 1.7em; }
+  .panel .content h4 {
+    font-size: 1.4em; }
+  .panel .content h5 {
+    font-size: 1.2em; }
+  .panel .content h6 {
+    font-size: 1em; }
+  .panel .content ul, .panel .content ol, .panel .content p {
+    font-size: 1.7em;
+    line-height: 25px; }
 
-.submit-panel {
-  position: absolute;
-  background: #aa0b3f;
-  color: white;
-  width: 66.5%;
-  min-height: 100%;
-  right: -1000px; }
-  .submit-panel .panel-wrap {
-    padding: 37px 6.5% 20px 10%; }
-    .submit-panel .panel-wrap h2 {
-      font-size: 3em;
-      line-height: 35px;
-      width: 70%; }
-  .submit-panel a {
-    color: white !important; }
-  .submit-panel .close {
-    position: absolute;
-    background: url(../img/close.png) no-repeat;
-    display: block;
-    right: 3.5%;
-    top: 37px;
-    height: 40px;
-    width: 40px;
-    background-size: 40px;
-    text-indent: -9999em; }
-    .submit-panel .close:hover {
-      opacity: 0.5; }
+.logo-list {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none;
+  border-left: 1px solid #f4f4f4; }
+  .logo-list li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 24.5%;
+    background: white;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4; }
+    .logo-list li:hover {
+      opacity: 0.7; }
+    .logo-list li a {
+      text-decoration: none; }
+    .logo-list li .date {
+      font-family: "Lato", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      color: #cccccc;
+      text-decoration: line-through;
+      font-size: 0.7em;
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      margin-top: -5px; }
+    .logo-list li.upcoming .date {
+      color: #000;
+      text-decoration: none; }
 
 .listing.green {
-  border-bottom: 90px solid #3cc359;
+  border-bottom: 90px solid #2fbb4d;
   /*border-top: 23px solid $green0;*/
-  background: #3cc359; }
+  background: #2fbb4d; }
   .listing.green .row.one .head {
-    background: #32c050; }
+    background: #24b743; }
   .listing.green .row.one .details {
-    background: #37c555; }
+    background: #2abc49; }
   .listing.green .row.two .head {
-    background: #3cc359; }
+    background: #2fbb4d; }
   .listing.green .row.two .details {
-    background: #41c85e; }
+    background: #35bf52; }
   .listing.green .row.three .head {
-    background: #47c662; }
+    background: #3abe56; }
   .listing.green .row.three .details {
-    background: #4bcb66; }
+    background: #40c35c; }
   .listing.green .head h3 {
     color: white; }
   .listing.green a.details:hover {
-    background: #32c050 !important; }
+    background: #24b743 !important; }
     .listing.green a.details:hover h4 {
       color: white; }
     .listing.green a.details:hover .link {
@@ -1043,6 +1099,9 @@ p, h5 {
 .text.listing.red {
   position: relative; }
 
+.image.listing.red {
+  position: relative; }
+
 .image.listing .image-head {
   padding: 40px 0 40px 0;
   position: relative; }
@@ -1095,7 +1154,7 @@ p, h5 {
 .read-through .overview {
   border-bottom: 23px solid #ade9f3; }
 .read-through .text.listing.green {
-  border-bottom: 23px solid #32c050; }
+  border-bottom: 23px solid #24b743; }
 .read-through .feature .head {
   padding: 0px 3.5% 0px 3.5%; }
 .read-through .head h3 {
@@ -1118,6 +1177,53 @@ p, h5 {
   .content .group {
     padding-bottom: 10px;
     border-bottom: 1px solid #e9e9e9; }
+
+.side-buttons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+  .side-buttons li {
+    float: right;
+    padding: 0;
+    margin: 0 0 0 10px; }
+    .side-buttons li a {
+      display: block;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background: white;
+      text-decoration: none;
+      padding: 10px; }
+      .side-buttons li a:hover {
+        color: white !important;
+        background: #000 !important; }
+    .side-buttons li.on a {
+      color: white;
+      background: #000; }
+
+.red .side-buttons .on a {
+  background: #ed145b;
+  color: white; }
+
+#map_canvas {
+  width: 100%;
+  height: 500px; }
+
+.map-content {
+  font-size: 1.5em;
+  line-height: 20px; }
+  .map-content a {
+    color: #000; }
 
 .foot .head {
   padding-top: 35px;
@@ -1420,14 +1526,40 @@ Span 12:    100%
     padding: 0 3.5%;
     margin-left: 0%; }
 
-  .span_12 {
+  .span_12, .panel-wrap .details {
     margin-left: 0;
     width: 100%; } }
+/*    
+    <a class="details col" href="">
+			
+				<div class="list-item">
+			
+					<div class="row clearfix">
+							
+						<div class="detail-head get colinner">
+							
+							<div class="image-head">
+								<img src="<!-- @path john.png -->" alt="" />
+								<h4>John Dalton</h4>
+							</div>
+							
+						</div>
+						
+						<div class="description colinner">
+							<h4>Understanding despair</h4>
+							<p>Our community is getting better at talking about depression, but we might have a disadvantage when it comes to understanding it. It's not a puzzle to be solved, and not always something you can think your way out of. I want to show you how I came to understand what it means to have clinical depression, and the single most important thing we can do about it.<span class="link">&gt;</span></p>
+						</div>
+ 
+	
+*/
 @media screen and (min-width: 0px) and (max-width: 900px) {
   .head h3 {
     font-size: 3.2em;
     line-height: 37px;
-    padding-top: 10px; } }
+    padding-top: 10px; }
+
+  .nav-bar nav ul li {
+    margin-right: 30px; } }
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .overview .masthead .logo h1 {
     padding-left: 0; }
@@ -1454,8 +1586,14 @@ Span 12:    100%
     display: block;
     padding: 15px 6.5%; }
 
-  .get-involved-panel, .submit-panel {
+  .panel {
     width: 100%; }
+
+  .logo-list li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 48%; }
 
   .nav-bar {
     background: white;
@@ -1589,7 +1727,11 @@ Span 12:    100%
   .image.listing .description p {
     max-width: 100%; }
   .image.listing .description h4 {
-    margin: 10px 0 0 0; } }
+    margin: 10px 0 0 0; }
+
+  .side-buttons li {
+    float: left;
+    margin: 0 20px 20px 0; } }
 @media screen and (min-width: 768px) and (max-width: 900px) {
   .button {
     padding: 32px 30px; } }
@@ -1618,6 +1760,9 @@ Span 12:    100%
 @media screen and (min-width: 900px) {
   .overview .masthead .logo h1 {
     padding-top: 63px; } }
+@media screen and (max-height: 560px) {
+  #map_canvas {
+    height: 250px; } }
 @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
 /* ==========================================================================
@@ -1678,3 +1823,8 @@ Span 12:    100%
   h2,
   h3 {
     page-break-after: avoid; } }
+.mappy1 {
+  background-image: url(../img/conferenceicon.png); }
+
+.mappy2 {
+  background-image: url(../img/speakericon.png); }

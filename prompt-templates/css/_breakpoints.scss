@@ -1,8 +1,10 @@
 @media screen and (min-width: 0px) and (max-width: 900px) {
 
-.head{
-	h3 { font-size:3.2em; line-height:37px; padding-top:10px;}
-}
+	.head{
+		h3 { font-size:3.2em; line-height:37px; padding-top:10px;}
+	}
+	
+	.nav-bar nav ul li { margin-right:30px;}
 
 }
 
@@ -23,8 +25,16 @@
 	.mobile-menu-button{ display: block; border-bottom: 1px solid $grey1; }
 	.mobile-menu-button a{ display: block; padding: 15px 6.5%;  }
 	
-	.get-involved-panel, .submit-panel{
+	.panel{
 		width:100%;
+	}
+	
+	.logo-list{
+	
+		li{
+			margin:0; padding:0; float:left; width:48%;
+		}
+		
 	}
 	
 	.nav-bar{
@@ -252,6 +262,14 @@
 		}
 		
 	}
+	
+	.side-buttons{
+
+		li{
+			float:left;
+			margin:0 20px 20px 0;
+		}
+	}
 
 }
 
@@ -317,8 +335,13 @@
 			
 		}
 	}
-	
-	
 
 
+}
+
+@media screen and (max-height: 560px) {
+
+	#map_canvas{
+		height:250px;
+	}	
 }

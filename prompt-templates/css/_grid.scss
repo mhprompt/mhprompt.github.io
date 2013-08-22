@@ -245,10 +245,31 @@ $gutter_pc: 0%;
         .span_11 {
             @include span(11, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span_12 {
+        .span_12, .panel-wrap .details {
             @include span_first;
             width:100%;
         }
     }
+/*    
+    <a class="details col" href="">
+			
+				<div class="list-item">
+			
+					<div class="row clearfix">
+							
+						<div class="detail-head get colinner">
+							
+							<div class="image-head">
+								<img src="<!-- @path john.png -->" alt="" />
+								<h4>John Dalton</h4>
+							</div>
+							
+						</div>
+						
+						<div class="description colinner">
+							<h4>Understanding despair</h4>
+							<p>Our community is getting better at talking about depression, but we might have a disadvantage when it comes to understanding it. It's not a puzzle to be solved, and not always something you can think your way out of. I want to show you how I came to understand what it means to have clinical depression, and the single most important thing we can do about it.<span class="link">&gt;</span></p>
+						</div>
  
 	
+*/
