@@ -1,0 +1,88 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+/* Color */
+$white: #fff;
+
+$darkblue: #1ba2ba;
+$darkestblue: #0a6d7f;
+
+$lightblue0: #ade9f3;
+$lightblue1: #70d3e5;
+$lightblue2: #81d8e8;
+$lightblue3: #85dae9;
+$lightblue4: #94deeb;
+$lightblue5: #d2f7fe;
+$lightblue6: #97e0ec;
+$lightblue7: #a4e3ee;
+
+/*
+$green0: #40cb5d;
+$green1: #32c050;
+$green2: #3cc359;
+$green3: #47c662;
+$green4: #37c555;
+$green5: #41c85e;
+$green6: #4bcb66;
+$whitegreen: #c0eeca;
+$darkgreen: #003f0d;
+*/
+
+$green0: #24b743;
+$green1: #24b743;
+$green2: #2fbb4d;
+$green3: #3abe56;
+$green4: #2abc49;
+$green5: #35bf52;
+$green6: #40c35c;
+$whitegreen: #c0eeca;
+$darkgreen: #003f0d;
+
+$yellow: #e7ef6b;
+
+$red0: #b5154a;
+$red1: #ed145b;
+$red2: #e21356;
+$darkred1: #aa0b3f;
+$darkred2: #bc164c;
+
+$grey0: #e9e9e9;
+$grey1: #f1f1f1;
+$grey2: #f4f4f4;
+$grey3: #fafafa;
+$grey4: #eeeeee;
+$grey5: #f5f5f5;
+$textgrey: #ccc;
+
+$darkgrey: #14020b;
+
+@mixin lato-light {
+	font-family: "Lato", Helvetica, Arial, sans-serif; font-weight:200;
+}
+
+@mixin lato-normal {
+	font-family: "Lato", Helvetica, Arial, sans-serif; font-weight:400;
+}
+
+@mixin lato-bold {
+	font-family: "Lato", Helvetica, Arial, sans-serif; font-weight:700;
+}
+
+@mixin lato-black {
+	font-family: "Lato", Helvetica, Arial, sans-serif; font-weight:900;
+}
+
+@import "normalize.scss";
+@import "helper.scss";
+@import "base.scss";
+@import "grid.scss";
+@import "breakpoints.scss";
+@import "print.scss";
+
+.mappy1{
+	background-image: url(../img/conferenceicon.png);
+}
+
+.mappy2{
+	background-image: url(../img/speakericon.png);
+}
