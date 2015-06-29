@@ -3,3 +3,4 @@ description:
 baseurl: ""
 url: ""
 markdown: kramdown
+exclude: [vendor]
