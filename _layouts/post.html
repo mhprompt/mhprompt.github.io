@@ -1,15 +1,33 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+<div id="wrapper" class="post">
+  <div class="overview blue" id="top">
+    <header class="masthead">
+      <div class="row clearfix">
+        <div class = "logo col">
+          <h1>
+            <a href="/" title = "Prompt - Mental Health in tech"><img src="/img/prompt.png"/></a>
+          </h1>
+        </div>
+        <div class = "details col">
+          <h2>{{ page.title }}</h2>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="image listing red">
+    <div class="row one clearfix">
+      <div class="head col">
+        <h3>{% if page.author %}{{ page.author }}{% endif %}<br>
+          <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+        </h3>
+      </div>
+      <div class="details col">
+        <div class="post-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
