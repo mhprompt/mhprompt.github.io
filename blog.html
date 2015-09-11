@@ -1,0 +1,85 @@
+---
+layout: blank
+title: Prompt - Mental health in the technology industry
+---
+
+<div id="wrapper">
+  <div class="nav-bar clearfix">
+
+   <div class="row">
+
+    <div class="mobile-menu-button">
+     <a href="#">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+  </div>
+
+  <div class="menu no-home">
+
+   <nav class="col utility ">
+
+    <ul class="clearfix invisible">
+
+     <li><a href="/">&lt; <span>Home</span></a></li>
+
+   </ul>
+
+ </nav>
+
+ <nav class="col  main">
+
+  <ul class="nav clearfix">
+
+   <li><a href="#top" title = "Top">Top</a></li>
+   <li><a href="#get-involved" title = "Get Involved">Get Involved</a></li>
+   <li><a href="#speakers" title = "Speakers">People &amp; Events</a></li>
+   <li><a href="#sponsors" title = "Sponsors">Sponsors</a></li>
+   <li><a href="blog.html"" title = "Blog">Blog</a></li>
+
+ </ul>
+
+</nav>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="overview blue" id="top">
+
+  <header class="masthead">
+
+    <div class="row clearfix">
+
+      <div class = "logo col">
+
+        <h1>
+          <a href="/" title = "Prompt - Mental Health in tech"><img src="/img/prompt.png"/></a>
+        </h1>
+
+      </div>
+
+      <div class = "details col">
+
+      </div>
+
+    </div>
+
+  </header>
+</div>
+
+  <ul>
+  {% for post in site.posts %}
+  {% if post.page == 'Blog' %}
+    <li>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a> - {{post.author}}</h3>
+
+      {{post.excerpt}}
+    </li>
+  {% endif %}
+  {% endfor %}
+</ul>
