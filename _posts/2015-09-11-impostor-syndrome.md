@@ -27,8 +27,6 @@ A quick way to stomp this weed before it has time to germinate is to continually
 
 Another general symptom of impostor syndrome is the sufferer feeling like a fraud. This comes into glaring focus in today's "everything is public" coding world.  At any point in time, you can see the level of check-ins on a particular person's Github account.  Some people, especially those feeling they are impostors, feel graded and that there contribution isn't enough.  As if there is a standard of participation we all need to achieve.  The idea that everyone needs to meet an imaginary level of acceptable contribution brings many to the conclusion they will never reach that level.  It's a perception that feeds paranoia which in turns feeds impostor syndrome.
 
-![](/images/githubshot.png)
-
 
 It's difficult to avoid a feeling a public judgement when what a developer does is so publicly visible.  This is also something we cannot do much about in our current environment.  It's possible to make work private, but perhaps hiding contributions away is just avoiding the problem.  We need to enable developers to take heart in the fact that any amount of contribution is valuable, every little bit helps.
 
