@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Our IndieGoGo Story"
-date:   2015-09-16
+date:   2015-10-05
 author: PJ Hagerty
 page: Blog
 excerpt_separator: <!--more-->
