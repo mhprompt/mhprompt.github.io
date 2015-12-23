@@ -85,6 +85,7 @@ a lot. Then again, sometimes we need a little more help from a professional. We
 shouldn't be afraid to do that either.
 
 ---
+
 ##This is your bravery test.
 
 If we are going to be able to trust our friends and coworkers, that means that
@@ -104,6 +105,7 @@ The Mayo Clinic has [more to say] on overcoming this stigma.
 [more to say]: http://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health/art-20046477
 
 ---
+
 ##Alright, let's have a little fun.
 
 Now that the wash has dried, you can move onto the simplest way to highlight an
