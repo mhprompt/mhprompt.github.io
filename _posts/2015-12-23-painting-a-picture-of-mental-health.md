@@ -7,9 +7,6 @@ page: Blog
 excerpt_separator: <!--more-->
 ---
 
-_Note: This post originally appeared in Caleb's newsletter and on the Thoughtbot blog_
-
-
 I paint. Whenever I tell people that, they understandably assume I mean on a
 canvas. I paint miniatures: small statuettes that are typically part of some
 tabletop wargame. I play the games too sometimes, but my passion is for the
@@ -87,8 +84,8 @@ discuss things like this. Sometimes just talking some of these things out helps
 a lot. Then again, sometimes we need a little more help from a professional. We
 shouldn't be afraid to do that either.
 
-
-#This is your bravery test.
+---
+##This is your bravery test.
 
 If we are going to be able to trust our friends and coworkers, that means that
 we need to be willing to listen to each other when we say that we have something
@@ -106,8 +103,8 @@ The Mayo Clinic has [more to say] on overcoming this stigma.
 
 [more to say]: http://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health/art-20046477
 
-
-#Alright, let's have a little fun.
+---
+##Alright, let's have a little fun.
 
 Now that the wash has dried, you can move onto the simplest way to highlight an
 area: drybrushing. When applying paint, you usually want to add water to thin the
@@ -170,10 +167,9 @@ of each of those in myself.
 Doing something creative and challenging that has nothing to do with computers
 helps to break up the concepts of work and play.
 
+---
 
-#All it takes is just a little change of perspective
-
-#and you begin to see a whole new world.
+##All it takes is just a little change of perspective and you begin to see a whole new world.
 
 Do you ever go home and still have some work problem churning in the back of
 your mind? I don't know about you, but it's not uncommon for me to untangle that
@@ -219,13 +215,15 @@ make you even happier.
 
 ---
 
-#It's life. It's interesting. It's fun.
+##It's life. It's interesting. It's fun.
 
 When I was young, my parents would watch Bob Ross on PBS sometimes. He always
 bored me back then.
 
-In writing this post and preparing my [talk][speaking], I watched a lot of _The
+In writing this post and preparing my [talk](https://www.youtube.com/watch?v=xCBRqZpiB2M), I watched a lot of _The
 Joy of Painting_. I really, really enjoyed listening to him narrate his
 episodes. He was a very happy, calming gentleman.
 
 All of the quotes from this article are from Bob Ross.
+
+_Note: This post originally appeared in Caleb's newsletter and on the Thoughtbot blog_
