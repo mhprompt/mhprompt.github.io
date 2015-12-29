@@ -224,8 +224,11 @@ make you even happier.
 When I was young, my parents would watch Bob Ross on PBS sometimes. He always
 bored me back then.
 
-In writing this post and preparing my [talk][speaking], I watched a lot of _The
+In writing this post and preparing my [talk](https://www.youtube.com/watch?v=xCBRqZpiB2M), I watched a lot of _The
 Joy of Painting_. I really, really enjoyed listening to him narrate his
 episodes. He was a very happy, calming gentleman.
 
 All of the quotes from this article are from Bob Ross.
+
+---
+_Note: This article originally appeared in Caleb's newsletter and on the [Thoughtbot blog](https://robots.thoughtbot.com/painting-a-picture-of-mental-health)_
