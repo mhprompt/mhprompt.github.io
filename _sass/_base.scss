@@ -5,6 +5,20 @@ body{
 
 }
 
+blockquote {
+	margin: 15px 0;
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777;
+  &> :first-child {
+    margin-top: 0;
+  }
+  &> :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
 #wrapper{
 	overflow:hidden
 }
