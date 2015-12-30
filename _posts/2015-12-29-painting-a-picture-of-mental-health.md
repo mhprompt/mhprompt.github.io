@@ -49,14 +49,8 @@ There's no reason you couldn't play a basecoated miniature in a game, but there
 are some tricks you can use to get a better looking model without much more
 work. It really makes all that time spent basecoating pay off.
 
-<figure>
-  <img
-    src="https://images.thoughtbot.com/data-migrations-in-rails/mcL9UcCZT5KzcJgx5k7A_shading.png"
-    alt="A Space Marine miniature from Warhammer 40k shaded using the \"dip\" method."
-    title="A Space Marine miniature from Warhammer 40k shaded using the \"dip\" method."
-  >
-  <figcaption>You need the dark in order to show the light.</figcaption>
-</figure>
+
+![A Space Marine miniature from Warhammer 40k shaded using the \"dip\" method.](https://images.thoughtbot.com/data-migrations-in-rails/mcL9UcCZT5KzcJgx5k7A_shading.png)
 
 The first is shading. This is the process of darkening the colors in your model
 in the parts where light doesn't shine as much. This "brightens" some areas by
