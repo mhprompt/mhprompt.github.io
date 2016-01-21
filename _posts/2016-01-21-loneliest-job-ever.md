@@ -7,8 +7,6 @@ page: Blog
 excerpt_separator: <!--more-->
 ---
 
-###"The loneliest (and only) job I could ever imagine… The life of startup founder"###
-
 Recently, [Emily Parkhurst](https://twitter.com/emilyparkhurst) and her colleagues at the Puget Sound Business Journal have published a series of articles on Depression in the Technology industry including an article that went to print on titled [“Tech’s dark secret: Depression in the startup community.”](http://www.bizjournals.com/seattle/print-edition/2015/03/20/tech-s-dark-secret.html) This is a topic I’ve grown to be incredibly passionate about, mainly because of the pain of the crucible I experienced throughout 2013.
 
 <!--more-->
