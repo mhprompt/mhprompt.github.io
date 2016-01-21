@@ -31,7 +31,7 @@ Yet I’ve found after 11 years, that the reality of that effort to return equat
 
 <figure>
   <img src="/img/reality.png" alt = "" />
-  <figcaption>The reality of a startup… Effort vs. Reward.</figcaption>
+  <figcaption align = 'center'>The reality of a startup… Effort vs. Reward.</figcaption>
 </figure>
 
 Throughout the history of Blue Box, I’ve experienced some of the most thrilling highs, and the lowest of lows. That goes with being an entrepreneur.
