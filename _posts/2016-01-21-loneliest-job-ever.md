@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The loneliest (and only) job I could ever imagine… The life of startup founder"
-date:   2015-01-21
+date:   2016-01-21
 author: Jesse Proudman
 page: Blog
 excerpt_separator: <!--more-->
