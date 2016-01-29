@@ -13,16 +13,15 @@ I was also un-intentionally making life hell for those close to me. I was having
 
 You see, I have a [General Anxiety Disorder](http://www.nimh.nih.gov/health/topics/generalized-anxiety-disorder-gad/index.shtml). In a really broad sense, I worry about things that will, most likely, never happen. I am also [Obsessive Compulsive](http://www.nimh.nih.gov/health/topics/obsessive-compulsive-disorder-ocd/index.shtml). So the things I worry about get placed on a mental carousel that never stops spinning. It spins the same thoughts 'round and 'round. Trying to stop the carousel is near impossible. The only way I knew, at the time, to remove a thought from the carousel was to take action. I'm not talking normal, healthy actions though:
 
-<ul>
-  <li>Sometimes I would drive 45 mins, at midnight, to go back to work to pull on a locked door that I had already locked, and checked, at 7pm.</li>
-  <li>I would drive around in circles to make sure I hadn't hit someone with my car because I felt a bump in the road.</li>
-  <li>I eventually would just leave the windows down/radio off whenever I would drive anywhere.</li>
-  <li>I would get particularly scared that I have some life-changing disease.</li>
-  <li>I would, and still do, worry that every single action in my life is offensive, or straining, to relationships I have with friends and family.</li>
-  <li>Every time I push code to a server, I have a slight panic that disaster is about to ensue. Though this has gotten better with Test Driven Development.</li>
-  <li>I fear emails because obviously the only reason someone would email me is to tell me something awful has happened.</li>
-  <li>I just get anxious for no reason.</li>
-</ul>
+* Sometimes I would drive 45 mins, at midnight, to go back to work to pull on a locked door that I had already locked, and checked, at 7pm.
+* I would drive around in circles to make sure I hadn't hit someone with my car because I felt a bump in the road.
+* I eventually would just leave the windows down/radio off whenever I would drive anywhere.
+* I would get particularly scared that I have some life-changing disease.
+* I would, and still do, worry that every single action in my life is offensive, or straining, to relationships I have with friends and family.
+* Every time I push code to a server, I have a slight panic that disaster is about to ensue. Though this has gotten better with Test Driven Development.
+* I fear emails because obviously the only reason someone would email me is to tell me something awful has happened.
+* I just get anxious for no reason.
+
 
 You probably read that and thought, "That's Stupid." You may even ask "Why don't you just think about something else?" Well, I ask myself that quite often. It's not that easy. If it was that easy, I wouldn't be writing this.
 
@@ -36,7 +35,7 @@ The real help for me came when I also started to see an amazing counselor. He ha
 
 It's 2016 and I've come a long way. I'm learning to separate the anxiety from the normal. The medicine helps with the smaller, day-to-day anxieties. Whenever things get bad, I know to go see my counselor. When I sense anxiety or a panic attack coming on, I take time to breathe and fight what's happening, and take the proper medicine, as needed. I have amazing friends who allow me to ask honest questions to help ease my mind. Most importantly, I'm not scared to talk about it any more. I don't want people to feel alone.
 
-**I don't think you every fully defeat anxiety, you just learn how to control it.**
+**I don't think you ever fully defeat anxiety, you just learn how to control it.**
 
 * Anxiety is nothing more than thoughts.
 * Thoughts can affect the rest of your body.
