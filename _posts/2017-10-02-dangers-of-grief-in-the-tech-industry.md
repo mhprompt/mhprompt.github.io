@@ -33,4 +33,4 @@ Unfortunately, there isn't a whole lot of good news when it comes to loss and be
 
 _Sally Perkins is a professional freelance writer with many years experience across many different areas. She made the move to freelancing from a stressful corporate job and loves the work-life balance it offers her. When not at work, Sally enjoys reading, hiking, spending time with her family and traveling as much as possible._
 
-_Sally is a guest blogger and kindly shared this story on aging with us._
+_Sally is a guest blogger and kindly shared this story on grief with us._
