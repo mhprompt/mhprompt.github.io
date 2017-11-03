@@ -7,7 +7,7 @@ page: Blog
 excerpt_separator: <!--more-->
 ---
 
-So, I (am fairly certain) I have ADHD. Why? Because I started this blog post about 10 times over ~four~ five weeks and written already about five to ten or more THOUSAND words, some deleted, some living in the 3 different drafts some living only in my head. Today, I sat down at 13:30 to polish this and get something written. It's now 15:30 and I am just starting. <a href = '#footnote1'>[1]</a>
+So, I (am fairly certain) I have ADHD. Why? Because I started this blog post about 10 times over ~four~ five weeks and written already about five to ten or more THOUSAND words, some deleted, some living in the 3 different drafts some living only in my head. Today, I sat down at 13:30 to polish this and get something written. It's now 15:30 and I am just starting. [1][footnote1]</a>
 
 Of course, in all that time I could have even gotten help for the problem! Just find a doctor. Or as I take it:
 
@@ -117,4 +117,4 @@ I didn't get the reason these concepts work in complex system architecture is be
 
 _#DevOps Evangelist for @cagedata. Organizer for #DevOpsCT. #bass player. #BoardGames junkie. Father, Husband, Lover of people._
 
-_[Aaron Aldrich](https://twitter.com/crayzeigh) is a guest blogger and kindly shared the story of his struggles with ADHD with us._
+_[Aaron Aldrich](https://twitter.com/crayzeigh) is a Prompt speaker and kindly shared the story of his struggles with ADHD with us._
