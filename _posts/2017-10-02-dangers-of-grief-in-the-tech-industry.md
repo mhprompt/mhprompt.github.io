@@ -7,7 +7,7 @@ page: Blog
 excerpt_separator: <!--more-->
 ---
 
-<img src = "/img/keyboard_and_mouse.png" alt = "MassTLC" />
+<img src = "/img/keyboard_and_mouse.png" alt = "Grief Header" />
 
 Workers in the tech industry can seem like cool, cutting-edge mavericks that don’t let the rest of the mundane world hold them back, but they’re human too. Humans who feel grief and great sadness when they suffer a loss. Grief causes distinct loneliness, depression and a host of other maladies but these, in turn, can have additional adverse effects on members of the tech industry. It is important for these tech sector employees to understand the unique results of grief in their world.
 
