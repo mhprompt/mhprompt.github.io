@@ -31,7 +31,7 @@ There is never a right time to talk about mental illness and in my experience pe
 
 I've been compliant with care for over eight years.  The four years I spent without treatment were initially hard to give up and later hard to work though.  When you're having issues you don't-not remember what you did.  You have clear recollection of the wrongs you've done and twisted ways you wandered.  It's not like a drunkard's blackout.  And coming to terms with this past was very difficult.
 
-I kept programming throughout the years of untreated bipolar and my first site built in 1999 is still running: [db.etree.org](http://db.etree.org/). When I programmed 90% of the time I felt clear headed but the way I was building was far outside the norm or README prescribed method.
+I kept programming throughout the years of untreated bipolar and my first site built in 1999 is still running: [etreedb.org](http://etreedb.org/). When I programmed 90% of the time I felt clear headed but the way I was building was far outside the norm or README prescribed method.
 
 I feel this is a very strong benefit I get with my bipolar. I just don't think inside any imaginary box you may be able to draw around a university education. The remnants of and patterns created by apophenia are no longer conscious but they're easily tapped into when I work. I don't use debuggers.
 
